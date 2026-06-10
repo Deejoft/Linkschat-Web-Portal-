@@ -1,5 +1,6 @@
 import styles from "./Features.module.css";
 import { motion } from "framer-motion";
+import { fadeUp } from "../../utils/animations";
 import {
   FaComments,
   FaVideo,
@@ -62,9 +63,10 @@ function Features() {
             <motion.article
               key={index}
               className={styles.card}
-              whileHover={{
-                y: -10,
-              }}
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
             >
               <div className={styles.icon}>{feature.icon}</div>
 
