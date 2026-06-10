@@ -22,9 +22,30 @@ function Navbar() {
           >
             Features
           </a>
-          <a href="#privacy">Privacy</a>
-          <a href="#communities">Communities</a>
-          <a href="#">Download</a>
+
+          <a
+            href="#privacy"
+            className={active === "privacy" ? styles.active : ""}
+            onClick={() => setActive("privacy")}
+          >
+            Privacy
+          </a>
+
+          <a
+            href="#communities"
+            className={active === "communities" ? styles.active : ""}
+            onClick={() => setActive("communities")}
+          >
+            Communities
+          </a>
+
+          <a
+            href="#download"
+            className={active === "download" ? styles.active : ""}
+            onClick={() => setActive("download")}
+          >
+            Download
+          </a>
         </nav>
 
         <button
