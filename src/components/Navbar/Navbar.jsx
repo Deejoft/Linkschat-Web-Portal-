@@ -27,7 +27,12 @@ function Navbar() {
           <a href="#">Download</a>
         </nav>
 
-        <button className={styles.downloadBtn}>Download</button>
+        <button
+          aria-label="Download LINKSCHAT app"
+          className={styles.downloadBtn}
+        >
+          Download
+        </button>
 
         <button className={styles.menuBtn} onClick={() => setIsOpen(!isOpen)}>
           <FaBars />
