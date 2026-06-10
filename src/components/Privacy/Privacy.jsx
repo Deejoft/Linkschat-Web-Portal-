@@ -1,17 +1,28 @@
 import styles from "./Privacy.module.css";
 import { FaCheckCircle } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Privacy() {
   return (
     <section className={styles.privacy}>
       <div className={`container ${styles.wrapper}`}>
-        <div className={styles.imageSide}>
+        <motion.div
+          className={styles.imageSide}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+        >
           <div className={styles.phone}>
             <div className={styles.lock}>🔒</div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className={styles.content}>
+        <motion.div
+          className={styles.content}
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+        >
           <span>PRIVACY FIRST</span>
 
           <h2>
@@ -44,7 +55,7 @@ function Privacy() {
               Secure Cloud Backup
             </li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
