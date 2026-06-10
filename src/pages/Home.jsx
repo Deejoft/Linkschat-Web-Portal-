@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Privacy from "../components/Privacy/Privacy";
 import Showcase from "../components/ShowCase/Showcase";
 import Stats from "../components/Stats/Stats";
+import Testimonials from "../components/Testimonial/Testimonial";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Stats />
       <Showcase />
       <Communities />
+      <Testimonials />
     </div>
   );
 }
