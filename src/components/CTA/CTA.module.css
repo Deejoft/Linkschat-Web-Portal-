@@ -27,4 +27,9 @@
   border-radius: 40px;
   background: #2563eb;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  transform: translateY(-3px);
 }

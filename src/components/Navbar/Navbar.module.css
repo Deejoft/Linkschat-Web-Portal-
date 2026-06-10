@@ -68,3 +68,8 @@
     background: white;
   }
 }
+
+.active {
+  color: #2563eb;
+  font-weight: 600;
+}

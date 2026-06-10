@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 
 function Navbar() {
+  const [active, setActive] = useState("home");
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -14,7 +15,13 @@ function Navbar() {
         </div>
 
         <nav className={styles.navLinks}>
-          <a href="#features">Features</a>
+          <a
+            href="#features"
+            className={active === "features" ? styles.active : ""}
+            onClick={() => setActive("features")}
+          >
+            Features
+          </a>
           <a href="#privacy">Privacy</a>
           <a href="#communities">Communities</a>
           <a href="#">Download</a>
