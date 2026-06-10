@@ -14,9 +14,9 @@ function Navbar() {
         </div>
 
         <nav className={styles.navLinks}>
-          <a href="#">Features</a>
-          <a href="#">Privacy</a>
-          <a href="#">Communities</a>
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#communities">Communities</a>
           <a href="#">Download</a>
         </nav>
 

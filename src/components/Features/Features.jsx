@@ -47,7 +47,7 @@ const features = [
 
 function Features() {
   return (
-    <section className={styles.features}>
+    <section className={styles.features} id="features">
       <div className="container">
         <div className={styles.heading}>
           <h2>Everything You Need to Stay Connected</h2>

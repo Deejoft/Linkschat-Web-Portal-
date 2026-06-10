@@ -2,7 +2,7 @@ import styles from "./Communities.module.css";
 
 function Communities() {
   return (
-    <section className={styles.communities}>
+    <section className={styles.communities} id="communities">
       <div className={`container ${styles.wrapper}`}>
         <div className={styles.image}>
           <div className={styles.circle}></div>

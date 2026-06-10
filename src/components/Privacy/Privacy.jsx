@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function Privacy() {
   return (
-    <section className={styles.privacy}>
+    <section className={styles.privacy} id="privacy">
       <div className={`container ${styles.wrapper}`}>
         <motion.div
           className={styles.imageSide}
