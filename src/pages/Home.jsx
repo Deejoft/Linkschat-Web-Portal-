@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Privacy from "../components/Privacy/Privacy";
 import Showcase from "../components/ShowCase/Showcase";
 import Stats from "../components/Stats/Stats";
-import Testimonials from "../components/Testimonial/Testimonial";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 function Home() {
   return (
