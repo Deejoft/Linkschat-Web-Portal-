@@ -1,4 +1,5 @@
 import styles from "./Features.module.css";
+import { motion } from "framer-motion";
 import {
   FaComments,
   FaVideo,
@@ -58,13 +59,19 @@ function Features() {
 
         <div className={styles.grid}>
           {features.map((feature, index) => (
-            <article key={index} className={styles.card}>
+            <motion.article
+              key={index}
+              className={styles.card}
+              whileHover={{
+                y: -10,
+              }}
+            >
               <div className={styles.icon}>{feature.icon}</div>
 
               <h3>{feature.title}</h3>
 
               <p>{feature.description}</p>
-            </article>
+            </motion.article>
           ))}
         </div>
       </div>

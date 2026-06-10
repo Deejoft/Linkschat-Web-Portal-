@@ -1,10 +1,16 @@
 import styles from "./Hero.module.css";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <section className={styles.hero}>
       <div className={`container ${styles.wrapper}`}>
-        <div className={styles.content}>
+        <motion.div
+          className={styles.content}
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <h1>
             Connect Freely.
             <br />
@@ -20,14 +26,22 @@ function Hero() {
             <button>Download App</button>
             <button className={styles.secondary}>Learn More</button>
           </div>
-        </div>
+        </motion.div>
 
         <div className={styles.phoneMockup}>
-          <div className={styles.phone}>
+          <motion.div
+            className={styles.phone}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{ once: true }}
+          >
             <div className={styles.chat}>👋 Hello there!</div>
 
             <div className={styles.chatRight}>Welcome to LINKSCHAT</div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
