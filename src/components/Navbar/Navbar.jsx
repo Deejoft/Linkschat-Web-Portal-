@@ -1,6 +1,7 @@
 import styles from "./Navbar.module.css";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import linkschatlogo from "../../assets/linkschatlogo.png";
 
 function Navbar() {
   const [active, setActive] = useState("home");
@@ -10,7 +11,11 @@ function Navbar() {
     <header className={styles.header}>
       <div className={`container ${styles.navbar}`}>
         <div className={styles.logo}>
-          <div className={styles.logoIcon}></div>
+          <img
+            src={linkschatlogo}
+            alt="LINKSCHAT Logo"
+            className={styles.logoImage}
+          />
           <span>LINKSCHAT</span>
         </div>
 
@@ -37,14 +42,6 @@ function Navbar() {
             onClick={() => setActive("communities")}
           >
             Communities
-          </a>
-
-          <a
-            href="#download"
-            className={active === "download" ? styles.active : ""}
-            onClick={() => setActive("download")}
-          >
-            Download
           </a>
         </nav>
 

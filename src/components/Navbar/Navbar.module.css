@@ -15,16 +15,22 @@
 
 .logo {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
   font-weight: 700;
   font-size: 1.2rem;
 }
 
+.logoImage {
+  height: 98px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logoIcon {
   width: 40px;
   height: 40px;
-  background: #2563eb;
+  background: #5bbce4;
   border-radius: 10px;
 }
 
@@ -36,7 +42,7 @@
 .downloadBtn {
   padding: 12px 24px;
   border-radius: 30px;
-  background: #2563eb;
+  background: #5bbce4;
   color: white;
 }
 
@@ -70,6 +76,6 @@
 }
 
 .active {
-  color: #2563eb;
+  color: #5bbce4;
   font-weight: 600;
 }

@@ -3,7 +3,9 @@
   display: flex;
   align-items: center;
 
-  background: linear-gradient(135deg, #0f172a, #1e293b, #2563eb);
+  /* background: linear-gradient(135deg, #0f172a, #1e293b, #2563eb); */
+
+  background: linear-gradient(135deg, #0f172a, #1d4ed8, #5bbce4);
 
   color: white;
 }
@@ -71,7 +73,8 @@
 .chatRight {
   margin-left: auto;
   margin-top: 20px;
-  background: #2563eb;
+  /* background: #2563eb; */
+  background: #5bbce4;
   color: white;
   padding: 10px;
   border-radius: 10px;

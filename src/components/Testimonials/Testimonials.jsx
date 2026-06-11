@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 import styles from "./Testimonials.module.css";
 
@@ -27,7 +30,30 @@ function Testimonials() {
           <p>Trusted by individuals, teams, and communities.</p>
         </div>
 
-        <Swiper spaceBetween={30} slidesPerView={1}>
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          spaceBetween={30}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
+        >
           {testimonials.map((item, index) => (
             <SwiperSlide key={index}>
               <div className={styles.card}>
