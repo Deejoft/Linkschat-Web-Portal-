@@ -29,6 +29,13 @@ function Footer() {
             <a href="#">Help</a>
             <a href="#">Contact</a>
           </div>
+
+          <div>
+            <h4>Legal</h4>
+            <a href="https://linkschat.unaux.com" target="_blank">
+              Privacy policy
+            </a>
+          </div>
         </div>
 
         <div className={styles.bottom}>
