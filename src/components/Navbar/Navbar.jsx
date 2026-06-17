@@ -16,7 +16,7 @@ function Navbar() {
             alt="LINKSCHAT Logo"
             className={styles.logoImage}
           />
-          <span>LinkChat</span>
+          <span>LinksChat</span>
         </div>
 
         <nav className={styles.navLinks}>
