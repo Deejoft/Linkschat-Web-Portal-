@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
-import linkschatlogo from "../../assets/linkschatlogo.png";
+import linkschatlogo from "/linkschatlogo.png";
 
 function Navbar() {
   const [active, setActive] = useState("home");
