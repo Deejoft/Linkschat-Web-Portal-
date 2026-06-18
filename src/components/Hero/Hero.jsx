@@ -18,7 +18,7 @@ function Hero() {
           </h1>
 
           <p>
-            LINKSCHAT helps you stay connected through fast, secure and private
+            LinksChat helps you stay connected through fast, secure and private
             messaging.
           </p>
 
