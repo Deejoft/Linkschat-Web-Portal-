@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className={styles.grid}>
           <div>
-            <h3>LINKSCHAT</h3>
+            <h3>LinksChat</h3>
             <p>Secure communication for everyone.</p>
           </div>
 
@@ -39,7 +39,7 @@ function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          © 2026 LINKSCHAT. All rights reserved.
+          © 2026 LinksChat. All rights reserved.
         </div>
       </div>
     </footer>

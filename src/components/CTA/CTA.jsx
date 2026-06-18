@@ -6,7 +6,7 @@ function CTA() {
       <div className="container">
         <h2>Ready To Start Chatting?</h2>
 
-        <p>Join millions of users connecting through LINKSCHAT.</p>
+        <p>Join millions of users connecting through LinksChat.</p>
 
         <div className={styles.buttons}>
           <button>Download for Android</button>

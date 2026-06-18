@@ -30,7 +30,7 @@ function Privacy() {
           </h2>
 
           <p>
-            LINKSCHAT uses advanced encryption technology to protect your
+            LinksChat uses advanced encryption technology to protect your
             messages, calls, media, and files.
           </p>
 

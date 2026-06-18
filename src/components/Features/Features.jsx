@@ -36,7 +36,7 @@ const features = [
   {
     icon: <FaLaptop />,
     title: "Cross Platform",
-    description: "Use LINKSCHAT on mobile, tablet, and desktop devices.",
+    description: "Use LinksChat on mobile, tablet, and desktop devices.",
   },
   {
     icon: <FaLock />,

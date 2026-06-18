@@ -15,7 +15,7 @@ function Communities() {
 
           <p>
             Whether you're running a business, managing a school, organizing
-            events, or building a community, LINKSCHAT helps everyone stay
+            events, or building a community, LinksChat helps everyone stay
             connected.
           </p>
 

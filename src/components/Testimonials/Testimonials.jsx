@@ -9,7 +9,7 @@ import styles from "./Testimonials.module.css";
 const testimonials = [
   {
     name: "Sarah Johnson",
-    text: "LINKSCHAT transformed the way our remote team collaborates.",
+    text: "LinksChat transformed the way our remote team collaborates.",
   },
   {
     name: "Michael Brown",
