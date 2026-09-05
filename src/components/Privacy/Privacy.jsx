@@ -23,14 +23,14 @@ function Privacy() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <span>PRIVACY FIRST</span>
+          <span>Privacy First</span>
 
           <h2>
             Your Conversations Stay Between You and the People You Choose.
           </h2>
 
           <p>
-            LinksChat uses advanced encryption technology to protect your
+            LinksChat Inc uses advanced encryption technology to protect your
             messages, calls, media, and files.
           </p>
 

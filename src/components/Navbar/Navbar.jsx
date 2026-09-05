@@ -13,7 +13,7 @@ function Navbar() {
         <div className={styles.logo}>
           <img
             src={linkschatlogo}
-            alt="LINKSCHAT Logo"
+            alt="LinksChat Logo"
             className={styles.logoImage}
           />
           <span>LinksChat</span>
@@ -46,7 +46,7 @@ function Navbar() {
         </nav>
 
         <button
-          aria-label="Download LINKSCHAT app"
+          aria-label="Download LinksChat app"
           className={styles.downloadBtn}
         >
           Download
