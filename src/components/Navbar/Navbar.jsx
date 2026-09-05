@@ -62,7 +62,7 @@ function Navbar() {
           <a href="#">Features</a>
           <a href="#">Privacy</a>
           <a href="#">Communities</a>
-          <a href="#">Download</a>
+          <a href="https://play.google.com/store/apps/details?id=com.deejoft.linkschat&pcampaignid=web_share">Download</a>
         </div>
       )}
     </header>
