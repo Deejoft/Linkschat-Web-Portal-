@@ -42,7 +42,7 @@ function Hero() {
           >
             <div className={styles.chat}>👋 Hello there!</div>
 
-            <div className={styles.chatRight}>Welcome to LINKSCHAT</div>
+            <div className={styles.chatRight}>Welcome to LinksChat</div>
           </motion.div>
         </div>
       </div>
