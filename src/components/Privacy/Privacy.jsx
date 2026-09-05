@@ -42,7 +42,7 @@ function Privacy() {
 
             <li>
               <FaCheckCircle />
-              Two-Factor Authentication
+              Two-Factor Authentication (2FA)
             </li>
 
             <li>
