@@ -48,8 +48,8 @@ function Navbar() {
         <button
           aria-label="Download LinksChat app"
           className={styles.downloadBtn}
-        >
-          Download
+        ><a href="https://play.google.com/store/apps/details?id=com.deejoft.linkschat&pcampaignid=web_share">Download</a>
+          
         </button>
 
         <button className={styles.menuBtn} onClick={() => setIsOpen(!isOpen)}>

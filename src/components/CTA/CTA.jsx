@@ -9,7 +9,7 @@ function CTA() {
         <p>Join millions of users connecting through LinksChat.</p>
 
         <div className={styles.buttons}>
-          <button>Download for Android</button>
+          <button><a href="https://play.google.com/store/apps/details?id=com.deejoft.linkschat&pcampaignid=web_share">Download for Android</a></button>
           <button>Download for iOS</button>
         </div>
       </div>

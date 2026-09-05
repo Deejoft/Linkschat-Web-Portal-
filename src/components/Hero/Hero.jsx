@@ -23,7 +23,8 @@ function Hero() {
           </p>
 
           <div className={styles.buttons}>
-            <button>Download App</button>
+            
+            <button ><a href="https://play.google.com/store/apps/details?id=com.deejoft.linkschat&pcampaignid=web_share">Download App</a></button>
             <button className={styles.secondary}>Learn More</button>
           </div>
         </motion.div>
